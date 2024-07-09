@@ -1,0 +1,49 @@
+body {
+    font-family: 'Cascadia Code', monospace;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+}
+header {
+    margin-top: 30px;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}	
+li {
+    text-align: justify;
+}
+
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: none;
+    pointer-events: none; 
+    z-index: 1000;
+    transform: translateY(-100%);
+}
